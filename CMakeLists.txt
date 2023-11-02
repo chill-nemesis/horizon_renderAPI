@@ -3,5 +3,5 @@ project(horizon_renderAPI VERSION 0.0.0 LANGUAGES CXX C)
 
 
 MakeHorizonModule(INTERFACE
-        INTERFACE_DEPENDENCIES horizon_algorithm
+        INTERFACE_DEPENDENCIES horizon::algorithm
 )
